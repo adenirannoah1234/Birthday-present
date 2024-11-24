@@ -25,7 +25,7 @@ const floatingAnimation = keyframes`
   100% { transform: translateY(0px); }
 `;
 
-const images = ['/temi1.jpg', '/temi2.jpg', '/couple.jpg', '/couple2.jpg'];
+const images = ['/ajike.jpg', '/ajike.jpg', '/ajike.jpg', '/ajike.jpg'];
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -36,7 +36,7 @@ function App() {
   const gridColumns = useBreakpointValue({ base: 1, md: 2 });
 
   useEffect(() => {
-    audioRef.current = new Audio('/Gratitude.mp3');
+    audioRef.current = new Audio('/if-God.mp3');
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
@@ -125,7 +125,7 @@ function App() {
           color="pink.500"
           animation={`${floatingAnimation} 3s ease-in-out infinite`}
         >
-          Happy Birthday Amope!
+          ❤️ Happy Birthday Ajike! 💖
         </Heading>
 
         <Grid
@@ -166,26 +166,27 @@ function App() {
             textAlign="center"
             fontWeight="bold"
           >
-            Happy birthday to the most beautiful soul I know! On this special
+            Happy birthday to the most beautiful soul I know! ✨ On this special
             day, I want to remind you just how much you mean to me. You are my
-            light, my joy, and the reason my heart beats a little faster every
-            time I see you. Every day with you feels like a blessing, and today,
-            I celebrate the gift of you in my life. As you step into a new year,
-            my love, I pray that God showers you with endless blessings, peace,
-            and joy. May your heart overflow with love, and may your path be
-            filled with success and happiness. I pray that every dream you’ve
-            ever had becomes a reality and that you never face a day without
-            knowing how deeply loved you are — by me and by everyone who’s lucky
-            enough to know you. I thank God every day for bringing you into my
-            life, and I ask that He continues to guide and protect you. May He
-            bless you with good health, surround you with positivity, and grant
-            you the desires of your heart. As you grow older, may your wisdom
-            deepen, your beauty shine even brighter, and your spirit soar to new
-            heights. You deserve every bit of happiness in the world, and I
-            promise to spend my life making sure you feel cherished, adored, and
-            supported. You are my world, and I am forever grateful to share this
-            journey of life with you. Happy birthday, my love. Here’s to a year
-            filled with love, laughter, and countless magical moments.
+            light 🌟, my joy 🎉, and the reason my heart beats a little faster
+            every time I see you. Every day with you feels like a blessing, and
+            today, I celebrate the gift of you in my life. 🎁 As you step into a
+            new year, my love, I pray that God showers you with endless
+            blessings, peace, and joy. 🙏 May your heart overflow with love 💝,
+            and may your path be filled with success and happiness. I pray that
+            every dream you've ever had becomes a reality ⭐ and that you never
+            face a day without knowing how deeply loved you are — by me and by
+            everyone who's lucky enough to know you. I thank God every day for
+            bringing you into my life, and I ask that He continues to guide and
+            protect you. 👼 May He bless you with good health, surround you with
+            positivity, and grant you the desires of your heart. 💫 As you grow
+            older, may your wisdom deepen, your beauty shine even brighter, and
+            your spirit soar to new heights. You deserve every bit of happiness
+            in the world, and I promise to spend my life making sure you feel
+            cherished, adored, and supported. You are my world 🌎, and I am
+            forever grateful to share this journey of life with you. Happy
+            birthday, my love. 💖 Here's to a year filled with love, laughter,
+            and countless magical moments. ✨
           </Text>
         </MotionBox>
 
@@ -200,15 +201,16 @@ function App() {
             fontStyle="italic"
             textAlign="center"
           >
-            I love you more than words can express. I want to spend every moment
-            with you, to be your everything, and to cherish every moment we have
-            together. I want to hold you close, to feel your warmth and to know
-            that you are loved. I want to be your rock, your shelter, your safe
-            haven, and your best friend. I want to be your confidant, your
-            guide, your partner, and your soulmate. I want to be your light,
-            your shine, your star, and your inspiration. I want to be your
-            voice, your song, your story, and your heart. I want to be your
-            love, your joy, your happiness, and your life.
+            I love you more than words can express 💝. I want to spend every
+            moment with you, to be your everything, and to cherish every moment
+            we have together 💑. I want to hold you close, to feel your warmth
+            and to know that you are loved 🤗. I want to be your rock, your
+            shelter, your safe haven, and your best friend 🏰. I want to be your
+            confidant, your guide, your partner, and your soulmate 💫. I want to
+            be your light, your shine, your star ⭐, and your inspiration 🌟. I
+            want to be your voice, your song 🎵, your story 📖, and your heart
+            💖. I want to be your love, your joy, your happiness, and your life
+            ✨.
           </Text>
         </MotionBox>
 
