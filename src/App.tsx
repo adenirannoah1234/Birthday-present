@@ -25,7 +25,7 @@ const floatingAnimation = keyframes`
   100% { transform: translateY(0px); }
 `;
 
-const images = ['/ajike.jpg', '/ajike.jpg', '/ajike.jpg', '/ajike.jpg'];
+const images = ['/ajike.jpg', '/ajike3.jpg', '/ajike4.jpg', '/ajike5.jpg'];
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -147,7 +147,7 @@ function App() {
                 alt={`Love Story Image ${index + 1}`}
                 borderRadius="md"
                 width="100%"
-                height="auto"
+                height={{ base: 'auto', md: '800px' }}
                 objectFit="cover"
                 boxShadow="lg"
               />
@@ -166,19 +166,22 @@ function App() {
             textAlign="center"
             fontWeight="bold"
           >
-            Happy birthday to the most beautiful soul I know! ✨ On this special
-            day, I want to remind you just how much you mean to me. You are my
-            light 🌟, my joy 🎉, and the reason my heart beats a little faster
-            every time I see you. Every day with you feels like a blessing, and
-            today, I celebrate the gift of you in my life. 🎁 As you step into a
-            new year, my love, I pray that God showers you with endless
-            blessings, peace, and joy. 🙏 May your heart overflow with love 💝,
-            and may your path be filled with success and happiness. I pray that
-            every dream you've ever had becomes a reality ⭐ and that you never
-            face a day without knowing how deeply loved you are — by me and by
-            everyone who's lucky enough to know you. I thank God every day for
-            bringing you into my life, and I ask that He continues to guide and
-            protect you. 👼 May He bless you with good health, surround you with
+            ADEDOLAPO, AJIKE MI OWON Omo olo , omo olobi labidan , Omo bokoja
+            padiye oko je , Omo ireke aragan dun bi oyin momo, Omo ireke aragan
+            dun bi ogan iyo, Omo olu tan labulabu ke dadire, Nke ru tomo alaboye
+            Nke odidi elegbo ala ma somi ojiju owa..... ✨ On this special day,
+            I want to remind you just how much you mean to me. You are my light
+            🌟, my joy 🎉, and the reason my heart beats a little faster every
+            time I see you. Every day with you feels like a blessing, and today,
+            I celebrate the gift of you in my life. 🎁 As you step into a new
+            year, my love, I pray that God showers you with endless blessings,
+            peace, and joy. 🙏 May your heart overflow with love 💝, and may
+            your path be filled with success and happiness. I pray that every
+            dream you've ever had becomes a reality ⭐ and that you never face a
+            day without knowing how deeply loved you are — by me and by everyone
+            who's lucky enough to know you. I thank God every day for bringing
+            you into my life, and I ask that He continues to guide and protect
+            you. 👼 May He bless you with good health, surround you with
             positivity, and grant you the desires of your heart. 💫 As you grow
             older, may your wisdom deepen, your beauty shine even brighter, and
             your spirit soar to new heights. You deserve every bit of happiness
